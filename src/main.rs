@@ -1,9 +1,7 @@
 mod day1;
+mod day2;
 
 fn main() {
-    //let result = day1::list_dist();
-    //println!("{result}");
-    
-    let result = day1::list_sim();
+    let result = day2::safe_reports();
     println!("{result}");
 }
