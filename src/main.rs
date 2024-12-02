@@ -1,3 +1,8 @@
+mod day1;
+
 fn main() {
-    println!("Hello, world!");
+    let result = day1::list_dist();
+    println!("{result}");
+    /*day1::list_dist();
+    println!("hello");*/
 }
