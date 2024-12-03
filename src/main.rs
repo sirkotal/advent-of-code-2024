@@ -1,7 +1,8 @@
-mod day1;
-mod day2;
+//mod day1;
+//mod day2;
+mod day3;
 
 fn main() {
-    let result = day2::safe_reports_dampened();
+    let result = day3::fix_memory();
     println!("{result}");
 }
