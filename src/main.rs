@@ -3,6 +3,6 @@
 mod day3;
 
 fn main() {
-    let result = day3::fix_memory();
+    let result = day3::fix_memory_complete();
     println!("{result}");
 }
