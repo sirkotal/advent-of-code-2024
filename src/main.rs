@@ -4,6 +4,6 @@
 mod day5;
 
 fn main() {
-    let result = day5::check_safety_updates();
+    let result = day5::fix_unsafe_updates();
     println!("{result}");
 }
