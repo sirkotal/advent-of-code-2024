@@ -1,9 +1,9 @@
-//mod day1;
-//mod day2;
-//mod day3;
-mod day5;
+//mod day01;
+//mod day02;
+//mod day03;
+mod day05;
 
 fn main() {
-    let result = day5::fix_unsafe_updates();
+    let result = day05::fix_unsafe_updates();
     println!("{result}");
 }

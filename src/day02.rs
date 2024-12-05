@@ -4,7 +4,7 @@ pub fn safe_reports() -> i32 {
     let mut data: Vec<Vec<i32>> = Vec::new();
     let mut res = 0;
 
-    let file = fs::read_to_string("./data/day2/input.txt");
+    let file = fs::read_to_string("./data/day02/input.txt");
     for line in file.unwrap().lines() {
         let info = line.to_string();
 
@@ -43,7 +43,7 @@ pub fn safe_reports_dampened() -> i32 {
     let mut data: Vec<Vec<i32>> = Vec::new();
     let mut res = 0;
 
-    let file = fs::read_to_string("./data/day2/input.txt");
+    let file = fs::read_to_string("./data/day02/input.txt");
     for line in file.unwrap().lines() {
         let info = line.to_string();
 

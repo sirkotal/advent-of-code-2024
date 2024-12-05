@@ -5,7 +5,7 @@ pub fn list_dist() -> i32 {
     let mut omega: Vec<i32> = Vec::new();
     let mut res = 0;
 
-    let file = fs::read_to_string("./data/day1/input.txt");
+    let file = fs::read_to_string("./data/day01/input.txt");
     //let print_file = file.expect("");
     //println!("{print_file}");
 
@@ -39,7 +39,7 @@ pub fn list_sim() -> i32 {
     let mut omega: Vec<i32> = Vec::new();
     let mut res = 0;
 
-    let file = fs::read_to_string("./data/day1/input.txt");
+    let file = fs::read_to_string("./data/day01/input.txt");
     for line in file.unwrap().lines() {
         let info = line.to_string();
 

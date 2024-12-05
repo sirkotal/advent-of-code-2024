@@ -7,7 +7,7 @@ pub fn fix_memory() -> i32 {
 
     let reg = Regex::new(r"mul\(([0-9]{1,3}),([0-9]{1,3})\)").unwrap();
 
-    let file = fs::read_to_string("./data/day3/input.txt");
+    let file = fs::read_to_string("./data/day03/input.txt");
 
     for line in file.unwrap().lines() {
         let info = line.to_string();
@@ -38,7 +38,7 @@ pub fn fix_memory_complete() -> i32 {
     let reg = Regex::new(r"mul\(([0-9]{1,3}),([0-9]{1,3})\)").unwrap();
     let burner = Regex::new(r"don't\(\).*?(do\(\)|$)").unwrap();
 
-    let file = fs::read_to_string("./data/day3/input.txt");
+    let file = fs::read_to_string("./data/day03/input.txt");
 
     for line in file.unwrap().lines() {
         let info = line.to_string();

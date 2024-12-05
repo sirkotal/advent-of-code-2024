@@ -10,7 +10,7 @@ pub fn check_safety_updates() -> i32 {
 
     let reg = Regex::new(r"([0-9]+)\|([0-9]+)").unwrap();
 
-    let file = fs::read_to_string("./data/day5/input.txt");
+    let file = fs::read_to_string("./data/day05/input.txt");
 
     for line in file.unwrap().lines() {
         let info = line.to_string();
@@ -81,7 +81,7 @@ pub fn fix_unsafe_updates() -> i32 {
 
     let reg = Regex::new(r"([0-9]+)\|([0-9]+)").unwrap();
 
-    let file = fs::read_to_string("./data/day5/input.txt");
+    let file = fs::read_to_string("./data/day05/input.txt");
 
     for line in file.unwrap().lines() {
         let info = line.to_string();
