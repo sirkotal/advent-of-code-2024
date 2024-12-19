@@ -7,6 +7,6 @@ mod day07;
 
 fn main() {
     //let result = day06::guard_map();
-    let result = day07::bridge_repair();
+    let result = day07::calibrated_bridge_repair();
     println!("{result}");
 }
